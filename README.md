@@ -59,8 +59,8 @@ You can configure the port via .env:
 PORT=5000
 ```
 
-## Note: 
-Pagination Support
+## Note
+**Pagination Support:** <br>
 This backend serves house data from a local JSON file and currently returns all houses in a single response because there are only 4 entries.
 
 If the dataset grows larger, the backend can be extended to support pagination by accepting query parameters like page and limit to return a subset of houses per request. This allows the frontend to implement lazy loading or infinite scrolling efficiently.
