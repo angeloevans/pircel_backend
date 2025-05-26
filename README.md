@@ -34,3 +34,6 @@ Optional Query Param
 
 Param	Description
 name
+```bash
+GET /houses?name=rav
+```
